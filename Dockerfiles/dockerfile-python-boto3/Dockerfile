@@ -30,4 +30,4 @@ COPY . /dockerfile-project
 RUN echo "print('Hello World')" > greetings.py
 
 # CMD instruction specifies the command to run when the container starts.
-CMD ["python3.9", "greetings.py"]
+CMD ["python3.11", "greetings.py"]
